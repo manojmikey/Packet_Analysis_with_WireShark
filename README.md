@@ -32,21 +32,22 @@ ________________________________________
 
 
 Lab Environment Setup
+
 ┌─────────────────────────────────────────────┐
 
-│           VirtualBox Host-Only Network       │
+                                               │           VirtualBox Host-Only Network       │
 
-│                                             │
+                                               │                                             │
 
-│   ┌──────────────┐      ┌──────────────┐   │
+                                               │   ┌──────────────┐      ┌──────────────┐   │
 
-│   │  Kali Linux  │◄────►│   Ubuntu     │   │
+                                               │   │  Kali Linux  │◄────►│   Ubuntu     │   │
 
-│   │  (Attacker)  │      │   (Target)   │   │
+                                               │   │  (Attacker)  │      │   (Target)   │   │
 
-│   │ 192.168.x.x  │      │ 192.168.x.x  │   │
+                                               │   │ 192.168.x.x  │      │ 192.168.x.x  │   │
 
-│   └──────────────┘      └──────────────┘   │
+                                               │   └──────────────┘      └──────────────┘   │
 
 └─────────────────────────────────────────────┘
 Both VMs on the same host-only adapter — traffic is fully capturable by Wireshark running on either machine.
