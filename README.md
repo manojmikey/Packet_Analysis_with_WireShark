@@ -33,7 +33,7 @@ ________________________________________
 
 Lab Environment Setup
 
-┌─────────────────────────────────────────────┐
+                                                ┌─────────────────────────────────────────────┐
 
                                                │           VirtualBox Host-Only Network       │
 
@@ -49,7 +49,8 @@ Lab Environment Setup
 
                                                │   └──────────────┘      └──────────────┘   │
 
-└─────────────────────────────────────────────┘
+                                                └─────────────────────────────────────────────┘
+                                                
 Both VMs on the same host-only adapter — traffic is fully capturable by Wireshark running on either machine.
 ________________________________________
 Tools & Commands Reference
